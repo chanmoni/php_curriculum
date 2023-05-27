@@ -1,0 +1,41 @@
+@media screen and (max-width: 767px) {
+      /*headerの横幅を250pxにする*/
+      /*rightの横幅を100pxにする*/
+      /*footerの横幅を250pxにする*/
+      .top {
+        width: 250px;
+      }
+      .middle_right {
+        width: 100px;
+      }
+      .bottom{
+        width: 250px;
+      }
+}
+
+@media screen and (max-width: 479px) {
+      /*headerの横幅を250pxにする*/
+      /*rightの横幅を100pxにする*/
+      /*footerの横幅を250pxにする*/
+      .top {
+        width: 150px;
+      }
+      
+      .middle{
+        flex-direction: column;
+      }
+     
+      .middle_right {
+        width: 150px;
+        float: none; /* 要素の浮動化の解除 */
+      }
+  
+      .middle_left {
+
+        float: none; /* 要素の浮動化の解除 */
+      }
+
+      .bottom{
+        width: 150px;
+      }
+}

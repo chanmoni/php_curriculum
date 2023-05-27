@@ -1,0 +1,58 @@
+body {
+  min-height: 100%; 
+  height: 100%;
+}
+
+.wrapper{
+  width: 400px;
+  margin: auto;
+}
+
+.top {
+ height:100px;
+ background-color: #141f40;
+}
+
+.middle{
+  /* height: 250px; */
+  display: flex;
+}
+
+.middle * {
+  height: 250px;
+  flex-direction: column;
+}
+
+.middle_left{
+  /* height: 250px; */
+  width: 150px;
+  float: left;
+  background-color: #80bfa8;
+}
+
+.middle_right{
+  /* height: 250px; */
+  width: 250px;
+  float: right;
+  background-color: #8c2727;
+}
+
+.bottom{
+  height: 100px;
+  background-color: #d98d30;
+}
+
+.clear_box {
+  clear:  both;    /* 回り込みを解除する */
+}
+
+.clearfix::after { 
+  content: '';
+  display: block; 
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
