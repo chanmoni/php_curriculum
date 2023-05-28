@@ -1,0 +1,43 @@
+body {
+  background-color: gray;
+}
+
+.title {
+  padding-top: 100px; 
+  border-bottom:solid #ffffff 4px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-style: '游明朝',serif;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-style: '游明朝',serif;
+}
+
+p {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-style: '游明朝',serif;
+}
+
+.choices {
+  text-align: center;
+  color: white;
+  font-style: '游明朝',serif;
+}
+
+.container {
+  margin-top: 50px;
+  text-align:  center;
+}
+
+.answer{
+  margin-top: 50px;
+  text-align: center;
+}
