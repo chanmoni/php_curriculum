@@ -5,15 +5,15 @@ $number = $_POST['number'];
 $range = mt_rand(1, 6);
 $randomNumber = $number * $range;
 
-    if (1< $randomNumber && $randomNumber < 10 ){
+    if (1<= $randomNumber && $randomNumber <= 10 ){
       $result = '凶';
-    } else if  (11< $randomNumber && $randomNumber < 15){
+    } else if  (11<= $randomNumber && $randomNumber <= 15){
       $result ='小吉';
-    } else if  (16< $randomNumber && $randomNumber < 20){
+    } else if  (16<= $randomNumber && $randomNumber <= 20){
       $result = '中吉';
-    } else if  (21< $randomNumber && $randomNumber < 25){
+    } else if  (21<= $randomNumber && $randomNumber <= 25){
       $result = '吉';
-    } else if  (26< $randomNumber && $randomNumber < 36){
+    } else if  (26<= $randomNumber && $randomNumber <= 36){
       $result = '大吉';
     }  else if  ($randomNumber < 37){
       $result = '残念';
