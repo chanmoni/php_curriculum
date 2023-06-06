@@ -1,0 +1,72 @@
+header{
+  width: 1000px;
+  height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+img {
+  width: 200px;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: 120px;
+  background-color: #add8e6;
+}
+
+.headerLeft{
+  flex-direction: column;
+  text-align: right;
+}
+
+.userName{
+  width: 800px;
+  height: 60px;
+  background-color: #87ceeb;
+  display: flex; /*Flexboxにする*/
+  align-items: center; /*上下*/
+  justify-content: end; /*左右*/
+}
+
+.loginTime {
+  width: 800px;
+  height: 60px;
+  background-color: #00ffff;
+  display: flex; /*Flexboxにする*/
+  align-items: center; /*上下*/
+  justify-content: end; /*左右*/
+}
+
+main {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.blog th {
+  background-color: #87ceeb;
+  margin: 0 auto;
+}
+
+.blogtitle1 td{
+  width:50px;
+}
+
+.blog tr {
+  background-color: #e0ffff;
+  width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  width: 1000px;
+  height: 60px;
+  background-color:#00ced1;
+  margin: 0 auto;
+}

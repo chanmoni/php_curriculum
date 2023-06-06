@@ -7,9 +7,10 @@ class getData{
     public $data;
 
     //コンストラクタ
+    //-----> constructはクラスを引き継いでインスタンスを作成する際に、必ず実行される関数
     function __construct()  {
-        $this->pdo = connect();
-    }
+         $this->pdo = connect();
+     }
 
     /**
      * ユーザ情報の取得
@@ -22,7 +23,8 @@ class getData{
         $users_data = $this->pdo->query($getusers_sql)->fetch(PDO::FETCH_ASSOC);
         return $users_data;
     }
-    
+
+    //Memo----->”public”とは、アクセス修飾子の1つ
     /**
      * 記事情報の取得
      *
