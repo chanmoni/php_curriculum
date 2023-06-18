@@ -1,0 +1,510 @@
+/*------------------------------------------
+////  all
+------------------------------------------*/
+html {
+  font-size: 100%;    /* ユーザーがブラウザで設定したフォントサイズを正確に反映 */ 
+  width: 100%;
+}
+
+body {
+  color: rgb(49, 49, 49);
+  width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body>div {
+    width: 100%;
+    box-sizing:border-box;
+}
+
+a {
+  text-decoration: none;  /* サイト内リンクの下線非表示 */
+}
+
+/* img {
+  max-width: 100%; /* 画像のmaxサイズを設定：画面の横幅からはみ出るのを防ぐため */
+p {
+  color: #4f4d4d;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.catch_phrase {
+  font-size: 30px;
+}
+
+.explanation_phrase {
+  font-weight: 200;
+  line-height: 30px;
+  font-size: 13px;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif; 
+}
+
+
+/*------------------------------------------
+////  header
+------------------------------------------*/
+header {
+  max-width: 960px;
+  display: flex;                  /* h1とnavを横並びに配置 */
+  justify-content: space-between; /* 両端そろえ */
+  align-items: center;            /* 高さ：中央そろえ */
+  height: 100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+header ul {
+  display: flex;                  /* liタグ（メニュー）を横並び配置 */
+  padding: 10px 0;
+}
+
+header li {
+  font-size: 0.9rem;
+  margin-left: 30px;
+}
+
+header li a {
+  color: #24292e;
+}
+
+header li a:hover {
+  opacity: 0.7;                   /* 透過：Mouse over */
+}
+
+.site-logo {
+  display: fixed;     /* Make sure max-width is added */
+  /* max-width: 100%; */
+  height: 30px;
+  width: 135px;
+}
+
+/*------------------------------------------
+////  main_top
+------------------------------------------*/
+
+.mainImg img {
+  text-align: center;   
+  width: 75%; /*画面サイズの横幅に対して75％の大きさで画像を表示*/
+  /* max-width: 1920px;   画像の横幅サイズにあわせて最大幅を指定 */
+  /*height: 500px;      縦の高さを固定 */
+  /*object-fit: cover;  横幅は画面サイズにあわせて伸縮 */
+}
+
+.mainImg {
+  text-align: center;
+}
+
+.outline {
+  font-size: 50px;
+  margin: 0;
+}
+
+.s2_about {
+  height: 1500px;
+}
+
+.bg-img1 {
+	background-image: url(images/長方形\　1.png);
+	background-position: top;
+  background-size:cover;
+  /* width: 100%; */
+	height: 1500px ;
+}
+
+.onbgimg {
+  padding-top: 200px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.japanese {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 2em;
+}
+
+.moderate_font {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.inner_phrase {
+  height: 160px;
+  font-weight: 200;
+  line-height: 40px;
+  font-size: 13px;
+  text-align: left;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif; 
+  margin-left: 30px;
+}
+
+/*------------------------------------------
+////  About
+------------------------------------------*/
+.polyhexanide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.inner_polyhexanide {
+  width: 400px;
+  height: auto;
+}
+
+.polyhexanide img {
+  width: 80%;
+  margin-right: 30px;
+}
+
+/*------------------------------------------
+////  4つの理由
+------------------------------------------*/
+.reasons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.four_reasons_content {
+  width: 400px;
+  height: auto;
+  margin-top: 30px;
+  position: relative;
+  opacity: 0;
+}
+
+.fourreasons_item {
+  font-size: 30px;
+}
+
+.four_reasons_content img {
+  width: 70%;
+}
+
+.overrap {
+  width: 250px;
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.forreasons_adjust {
+  padding-bottom: 43px;
+}
+
+.fr1_img {
+  background-image: url(images/ヒト.png);
+	background-position: right 30px top;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+
+.fr2_img {
+  background-image: url(images/クツ.png);
+	background-position: right 30px top 30px;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+
+.fr3_img {
+  background-image: url(images/ミズ.png);
+	background-position: right 30px top;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+
+.fr4_img {
+  background-image: url(images/カバン.png);
+	background-position: right 30px top;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+
+/*------------------------------------------
+////  Customer Review
+------------------------------------------*/
+.customerReview {
+  padding-top: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bg-img2 {
+	background-image: url(images/長方形\　2.png);
+	background-position: top;
+  object-position: 100% 100%;
+  height: 2300px;
+}
+
+.s4_review {
+  height: 2300px;
+}
+
+.review_voice {
+  margin-bottom: 80px;
+}
+
+.review_title {
+  font-size: 22px;
+  text-align: left;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.review {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  height: 250px;
+  width: 960px;
+  padding-bottom: 150px;
+}
+
+.review_inner {
+  width: 80%;
+  text-align: left;
+  padding-bottom: 0;
+  padding-left: 20px;
+  margin-right: -70px;
+  font-size: 13px;
+  line-height: 40px;
+}
+
+.review img {
+  height: 90%;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.review_img {
+ margin-right: 20px;
+}
+
+.review1 .review2 .review3 .review4 {
+  height: 200px;
+  margin-bottom: 0;
+}
+
+/*------------------------------------------
+////  products
+------------------------------------------*/
+
+.introduce_products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.product {
+  width: 300px;
+  text-align: left;
+  padding: 50px;
+}
+
+.product img {
+  height: 300px;
+}
+
+.products_price {
+  font-size: 13px;
+}
+
+.products_price span {
+  font-size: 8px;
+}
+
+.products_inner {
+  text-align: left;
+  line-height: 30px;
+  font-size: 13px;
+}
+
+.product_title {
+  text-align: center;
+  font-size: 22px;
+}
+
+.onlinestore_button {
+  text-align: center;
+}
+
+.onlinestore {
+  text-align: center;
+  border: 1px solid #333;
+  padding: 10px 30px;
+  background: white;
+}
+
+.onlinestore:hover {
+  background: black;
+  color: white;
+}
+
+/*------------------------------------------
+////  faq
+------------------------------------------*/
+.faq {
+ width: 670px;
+}
+
+.faq_title {
+  margin-bottom: 0;
+}
+
+.faq span {
+  font-size: 15px;
+}
+
+.faq_group {
+  text-align: center;
+}
+
+.faq img {
+  text-align: center;
+  width: 100%;
+  /* height: 500px;      縦の高さを固定します */
+  object-fit: cover;  /* 横幅は画面サイズにあわせて伸縮します */
+}
+
+.qa {
+  width: 670px;
+  height: 150px;
+  text-align: center;
+}
+
+.question {
+  width: 670px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 22px;
+  background-color: rgb(243, 243, 243);
+  text-align: left;
+}
+
+.answer {
+  width: 670px;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: left;
+}
+
+/*------------------------------------------
+////  メディア情報
+------------------------------------------*/
+
+.media_company {
+  height: 300px;
+  /* width: 960px; */
+  text-align: center;
+  margin-left: auto;
+  justify-content: space-between;
+  padding-top: 150px;
+}
+
+.media {
+  /* width: 960px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.media_img {
+  /* width: 100px; */
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.media_company img {
+  width: 120px;
+}
+
+/*------------------------------------------
+////  footer
+------------------------------------------*/
+footer {
+  height: 250px;
+  background-color: rgb(243, 243, 243);
+  /* position: absolute; ②絶対位置 */
+  bottom: 0; /*下に固定*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_m {
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.footer_detail {
+  font-size: 13px;
+  line-height: 30px;
+  padding-left: 30px;
+}
+.company {
+  width: 40%;
+}
+
+.sns {
+  width: 60%;
+  height: 50px;
+  /* padding-top: 100px; */
+  display: flex;
+  padding-top: 200px;
+  justify-content: right;
+}
+
+.sns img {
+  width: 30px;
+  align-items: flex-end;
+}
+
+.sns p {
+ width: 20px;
+ margin: 0 0;
+ padding-left: 10px;
+ color: white;
+ font-size: 15px;
+ line-height: 30px;
+}
+
+.twitter {
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  border: solid 3px #1da1f2;
+  background: #1da1f2;/*背景色*/
+  margin-right:10px;
+}
+
+.instagram {
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  border: solid 3px #000000;
+  background: black;/*背景色*/
+  margin-right:10px;
+}
