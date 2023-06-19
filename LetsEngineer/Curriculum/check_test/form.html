@@ -9,7 +9,7 @@
 <body>
   <h1 class="site-logo"><a href="#"><img src="images/ロゴ.png" alt="b-blow"></a></h1>
 
-  <form action="#" method="post">
+  <form action="confirm.php" method="post">
       <p>お名前<span>（必須）</span>：
       <input type="text" name="name"></p>
       <p>お名前（ふりがな）<span>（必須）</span>：
@@ -19,8 +19,8 @@
       <p>メールアドレス<span>（必須）</span>：
       <input type="text" name="mail"></p>
       <p>商品：<span>（必須）</span><br>
-          <input type="radio" name="q1" value="spray"> 除菌スプレー
-          <input type="radio" name="q1" value="refile"> 詰め替え用ボトル
+          <input type="radio" name="regular_delivery" value="spray"> 除菌スプレー
+          <input type="radio" name="regular_delivery" value="refile"> 詰め替え用ボトル
       </p>
       <p>定期配送を希望する<span>（必須）</span>：
         <input type="radio" name="q1" value="yes"> はい
@@ -36,9 +36,6 @@
     span {
       color: red;
     }
-
-
-
   </style>
 </body>
 </html>
