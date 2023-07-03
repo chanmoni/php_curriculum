@@ -41,7 +41,12 @@
   }
 
   .media {
-      margin-left: 0px;
+    display: block;
+  }
+
+  .media_company {
+    padding-top:0;
+    height:450px;
   }
 } 
 
@@ -94,7 +99,6 @@
   .qa {
     width: 450px;
   }
-
 
   footer {
     height: 450px;
