@@ -1,0 +1,112 @@
+@media screen and (max-width: 870px) {
+    header ul {
+      display: none;   /*メニューバー非表示*/
+    }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 760px;
+  }
+
+  .s2_about {
+    height: 1800px;
+  }
+
+  .bg-img1 {
+    height: 1800px;
+  }
+
+  .review {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 760px;
+    padding-bottom: 80px;
+  }
+
+  .review img {
+    height: 120px;
+    padding-top: 170px;
+    object-fit: cover;
+  }
+
+  .review_inner {
+    margin-right: -100px;
+  }
+
+  footer {
+    height: 400px;
+    bottom: 0; /*下に固定*/
+  }
+
+  .media {
+      margin-left: 0px;
+  }
+} 
+
+@media screen and (max-width: 479px) {
+  .wrapper {
+    width: 470px;
+  }
+
+  .catch_phrase {
+    font-size: 20px;
+  }
+  .moderate_font {
+    font-size: 20px;
+  }
+  .outline {
+    font-size: 30px;
+  }
+
+  .review {
+    width: 470px;
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+  .review_title {
+    width: 450px;
+  }
+
+  .review img {
+     padding-top: 0px;
+  }
+
+  .review_inner {
+    margin-right: 0px;
+    line-height: 20px;
+  }
+  .faq {
+    width: 470px;
+   }
+  .question {
+    width: 470px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .answer {
+    width: 450px;
+    font-size: 13px;
+  }
+
+  .qa {
+    width: 450px;
+  }
+
+  footer {
+    height: 450px;
+    flex-direction: column;
+  }
+  .company {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .sns {
+    padding-top: 50px;
+    margin-left: 30px;
+    flex-direction: column;
+  }
+}

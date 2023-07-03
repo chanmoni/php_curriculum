@@ -5,9 +5,10 @@
     $db = new getData();
     $user = $db->getUserData();
     $posts = $db->getPostData()->fetchAll(PDO::FETCH_ASSOC);
+    //$posts_data = $db->getPostData()->prepare($getposts_sql);
     //var_dump($user);
-    //var_dump($posts);
-    
+    //var_dump($posts_data);
+
     foreach($posts as $array){
         if ($array ["category_no"] == 1){
             $array["category_no"]  = "食事";
