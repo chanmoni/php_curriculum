@@ -31,7 +31,7 @@ for (let i = 0; i < fourreasons_item.length; i++) {
   fourreasons_item[i].animate(keyframe_2,option_2);
 
   };
-  console.log (entries[0],target);
+  //console.log (entries[0],target);
 };
 
 const observer = new IntersectionObserver(showUpitem);
